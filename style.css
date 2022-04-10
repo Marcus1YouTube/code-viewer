@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    font-family: Fira Code;
+}
+
+textarea {
+    resize: none;
+    word-wrap: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filename {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
